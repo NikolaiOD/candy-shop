@@ -1,0 +1,51 @@
+.benefits {
+
+    &__list {
+        display: flex;
+        flex-direction: column;
+
+        @media screen and (max-width: 767px) {
+            gap: 20px;
+        }
+
+        @include tablet {
+            flex-direction: row;
+            justify-content: space-between;
+        }
+    }
+    
+    &__item {
+        @include tablet {
+            width: 200px;
+        }
+
+        @include desktop {
+            width: 400px;
+        }
+    }
+
+    &__title {
+        text-align: left;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.2;
+    }
+
+    &__description {
+        text-align: left;
+        font-weight: 350;
+        font-size: 14px;
+        line-height: 1.2;
+        color: $secondary-text-color;  
+    }
+
+    &__image {
+        width: 25px;
+
+        @include tablet {
+            width: 50px;
+        }
+    }
+}

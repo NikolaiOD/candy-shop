@@ -1,0 +1,62 @@
+// Общее оформление
+body {
+    font-family: $primaryFont;
+    color: $primary-text-color;
+    background-color: $white-background-color;
+    min-width: 320px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+// глобальный сброс margin, padding
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+// удалить точки у списков
+ul {
+    list-style: none;
+}
+
+// удалить подчеркивание у ссылок
+.link {
+    text-decoration: none;
+}
+
+// скрыть
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0);
+}
+
+.container {
+    margin: 0 auto;
+    padding: 15px;
+    max-width: 480px;
+
+    @include tablet {
+        max-width: 768px;
+    }
+
+    @include desktop {
+        max-width: 1280px;
+    }
+}

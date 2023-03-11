@@ -1,0 +1,54 @@
+.header {
+    border-bottom: 1px solid #ececec;
+
+    &__wrap {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 24px;
+    color: $accent-color;
+
+    &__blue {
+        color: $primary-text-color;
+    }
+}
+
+.contact {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+    &__tel {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.2;
+        padding: 15px 0;
+        color: $secondary-text-color;
+        display: inline-flex;
+        gap: 5px;
+        
+        &:hover,
+        &:focus {
+            color: $accent-color;
+        }
+    }
+
+    &__icon {
+        fill: currentColor;
+    }
+}
+
+.contact__instagram {
+    border-radius: 50%;
+    fill: $secondary-text-color;
+
+    &:hover,
+    &:focus {
+        fill: #2196f3;
+    }
+}
