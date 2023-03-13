@@ -1,0 +1,18 @@
+.footer {
+    background-color: $dark-background-color;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo--white {
+    color: $white-text-color;
+}
+
+.contact__tel--white {
+    color: $white-text-color;
+}
+
+.contact__instagram--white {
+    fill: $white-text-color;
+}

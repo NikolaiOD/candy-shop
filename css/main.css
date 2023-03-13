@@ -59,9 +59,6 @@ ul {
 }
 
 .header {
-  border-bottom: 1px solid #ececec;
-}
-.header__wrap {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -78,7 +75,7 @@ ul {
   font-size: 24px;
   color: #2196f3;
 }
-.logo__blue {
+.logo--dark {
   color: #212121;
 }
 
@@ -108,7 +105,6 @@ ul {
 .contact__icon {
   fill: currentColor;
 }
-
 .contact__instagram {
   border-radius: 50%;
   fill: #757575;
@@ -142,7 +138,7 @@ ul {
   margin-right: auto;
   max-width: 400px;
   font-weight: 700;
-  font-size: 26px;
+  font-size: 24px;
   line-height: 1.5;
   text-transform: uppercase;
   color: #ffffff;
@@ -165,11 +161,17 @@ ul {
 }
 @media screen and (min-width: 1280px) {
   .hero__text {
-    font-size: 22px;
+    font-size: 24px;
     max-width: 700px;
   }
 }
 
+@media screen and (min-width: 768px) {
+  .benefits {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
 .benefits__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -215,7 +217,7 @@ ul {
 }
 .benefits__description {
   text-align: left;
-  font-weight: 350;
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.2;
   color: #757575;
@@ -227,4 +229,153 @@ ul {
   .benefits__image {
     width: 50px;
   }
+}
+
+@media screen and (min-width: 768px) {
+  .benefits {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+.benefits__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+@media screen and (max-width: 767px) {
+  .benefits__list {
+    gap: 20px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .benefits__list {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+@media screen and (min-width: 768px) {
+  .benefits__item {
+    width: 200px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .benefits__item {
+    width: 400px;
+  }
+}
+.benefits__title {
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2;
+}
+.benefits__description {
+  text-align: left;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  color: #757575;
+}
+.benefits__image {
+  width: 25px;
+}
+@media screen and (min-width: 768px) {
+  .benefits__image {
+    width: 50px;
+  }
+}
+
+.category {
+  background-color: #f5f4fa;
+}
+@media screen and (min-width: 768px) {
+  .category {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+.category__title {
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.2;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .category__title {
+    margin-bottom: 50px;
+    font-size: 44px;
+  }
+}
+.category__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  grid-gap: 30px;
+}
+@media screen and (min-width: 768px) {
+  .category__list {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    grid-gap: 90px;
+  }
+}
+.category__name {
+  margin-top: 10px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.2;
+  text-align: center;
+  color: #212121;
+}
+
+.footer {
+  background-color: #2f303a;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.logo--white {
+  color: #ffffff;
+}
+
+.contact__tel--white {
+  color: #ffffff;
+}
+
+.contact__instagram--white {
+  fill: #ffffff;
 }/*# sourceMappingURL=main.css.map */

@@ -1,11 +1,7 @@
 .header {
-    border-bottom: 1px solid #ececec;
-
-    &__wrap {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo {
@@ -13,7 +9,7 @@
     font-size: 24px;
     color: $accent-color;
 
-    &__blue {
+    &--dark {
         color: $primary-text-color;
     }
 }
@@ -41,14 +37,14 @@
     &__icon {
         fill: currentColor;
     }
-}
 
-.contact__instagram {
-    border-radius: 50%;
-    fill: $secondary-text-color;
-
-    &:hover,
-    &:focus {
-        fill: #2196f3;
+    &__instagram {
+        border-radius: 50%;
+        fill: $secondary-text-color;
+    
+        &:hover,
+        &:focus {
+            fill: #2196f3;
+        }
     }
 }
