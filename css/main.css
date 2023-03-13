@@ -59,6 +59,7 @@ ul {
 }
 
 .header {
+  border-bottom: 1px solid #ececec;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -72,8 +73,13 @@ ul {
 
 .logo {
   font-weight: 700;
-  font-size: 24px;
+  font-size: 20px;
   color: #2196f3;
+}
+@media screen and (min-width: 768px) {
+  .logo {
+    font-size: 24px;
+  }
 }
 .logo--dark {
   color: #212121;
@@ -83,15 +89,19 @@ ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 20px;
+  gap: 5px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
+@media screen and (min-width: 768px) {
+  .contact {
+    gap: 20px;
+  }
+}
 .contact__tel {
-  font-weight: 500;
+  font-weight: 400;
   font-size: 14px;
-  line-height: 1.2;
   padding: 15px 0;
   color: #757575;
   display: -webkit-inline-box;
@@ -154,7 +164,7 @@ ul {
   margin-right: auto;
   margin-top: 10px;
   max-width: 400px;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.2;
   color: #ffffff;
@@ -213,11 +223,10 @@ ul {
   margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.2;
 }
 .benefits__description {
   text-align: left;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.2;
   color: #757575;
@@ -278,11 +287,10 @@ ul {
   margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.2;
 }
 .benefits__description {
   text-align: left;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.2;
   color: #757575;
@@ -309,7 +317,6 @@ ul {
   margin-bottom: 30px;
   font-weight: 700;
   font-size: 24px;
-  line-height: 1.2;
   text-align: center;
 }
 @media screen and (min-width: 768px) {
@@ -329,7 +336,7 @@ ul {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  grid-gap: 30px;
+  grid-gap: 20px;
 }
 @media screen and (min-width: 768px) {
   .category__list {
@@ -345,11 +352,15 @@ ul {
     grid-gap: 90px;
   }
 }
+.category__item {
+  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
 .category__name {
-  margin-top: 10px;
+  margin: 5px 0;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.2;
   text-align: center;
   color: #212121;
 }
@@ -367,6 +378,29 @@ ul {
       -ms-flex-align: center;
           align-items: center;
 }
+@media screen and (min-width: 768px) {
+  .footer {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+.footer__city {
+  font-weight: 400;
+  font-size: 14px;
+  padding-top: 15px;
+  color: #ffffff;
+}
+@media screen and (min-width: 768px) {
+  .footer__city {
+    padding: 15px 0;
+    margin: 0 auto;
+  }
+}
+.footer__city:hover, .footer__city:focus {
+  color: #2196f3;
+}
 
 .logo--white {
   color: #ffffff;
@@ -378,4 +412,73 @@ ul {
 
 .contact__instagram--white {
   fill: #ffffff;
+  margin-left: 20px;
+}
+
+.sukhofrukty {
+  background-color: #f5f4fa;
+}
+@media screen and (min-width: 768px) {
+  .sukhofrukty {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+.sukhofrukty__title {
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .sukhofrukty__title {
+    margin-bottom: 50px;
+    font-size: 44px;
+  }
+}
+.sukhofrukty__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  grid-gap: 20px;
+}
+@media screen and (min-width: 768px) {
+  .sukhofrukty__list {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    grid-gap: 90px;
+  }
+}
+.sukhofrukty__item {
+  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+.sukhofrukty__name {
+  margin: 5px 0;
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  color: #212121;
+}
+.sukhofrukty__description {
+  text-align: left;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.2;
+  color: #757575;
 }/*# sourceMappingURL=main.css.map */

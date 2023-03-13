@@ -1,4 +1,4 @@
-.category {
+.sukhofrukty {
     background-color: $mix-background-color;
 
     @include tablet {
@@ -43,5 +43,13 @@
         font-size: 18px;
         text-align: center;
         color: $primary-text-color;
+    }
+
+    &__description {
+        text-align: left;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.2;
+        color: $secondary-text-color;
     }
 }
