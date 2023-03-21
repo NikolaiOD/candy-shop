@@ -416,15 +416,30 @@ ul {
   margin-left: 20px;
 }
 
+.oil,
+.drink,
+.rahat,
+.candy,
+.gorikhi,
 .sukhofrukty {
   background-color: #f5f4fa;
 }
 @media screen and (min-width: 768px) {
+  .oil,
+  .drink,
+  .rahat,
+  .candy,
+  .gorikhi,
   .sukhofrukty {
     padding-top: 60px;
     padding-bottom: 60px;
   }
 }
+.oil__title,
+.drink__title,
+.rahat__title,
+.candy__title,
+.gorikhi__title,
 .sukhofrukty__title {
   margin-bottom: 30px;
   font-weight: 700;
@@ -432,11 +447,21 @@ ul {
   text-align: center;
 }
 @media screen and (min-width: 768px) {
+  .oil__title,
+  .drink__title,
+  .rahat__title,
+  .candy__title,
+  .gorikhi__title,
   .sukhofrukty__title {
     margin-bottom: 50px;
     font-size: 44px;
   }
 }
+.oil__list,
+.drink__list,
+.rahat__list,
+.candy__list,
+.gorikhi__list,
 .sukhofrukty__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -451,6 +476,11 @@ ul {
   grid-gap: 20px;
 }
 @media screen and (min-width: 768px) {
+  .oil__list,
+  .drink__list,
+  .rahat__list,
+  .candy__list,
+  .gorikhi__list,
   .sukhofrukty__list {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -464,6 +494,11 @@ ul {
     grid-gap: 90px;
   }
 }
+.oil__item,
+.drink__item,
+.rahat__item,
+.candy__item,
+.gorikhi__item,
 .sukhofrukty__item {
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -471,391 +506,63 @@ ul {
   padding: 5px;
   max-width: 260px;
 }
+@media screen and (min-width: 768px) {
+  .oil__item,
+  .drink__item,
+  .rahat__item,
+  .candy__item,
+  .gorikhi__item,
+  .sukhofrukty__item {
+    height: 450px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+.oil__name,
+.drink__name,
+.rahat__name,
+.candy__name,
+.gorikhi__name,
 .sukhofrukty__name {
   margin: 10px 0;
   font-weight: 700;
   font-size: 18px;
   text-align: center;
 }
+.oil__description,
+.drink__description,
+.rahat__description,
+.candy__description,
+.gorikhi__description,
 .sukhofrukty__description {
   text-align: left;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.2;
 }
+.oil__property,
+.drink__property,
+.rahat__property,
+.candy__property,
+.gorikhi__property,
 .sukhofrukty__property {
   text-align: center;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.8;
 }
-
-.gorikhi {
-  background-color: #f5f4fa;
-}
 @media screen and (min-width: 768px) {
-  .gorikhi {
-    padding-top: 60px;
-    padding-bottom: 60px;
+  .oil__property,
+  .drink__property,
+  .rahat__property,
+  .candy__property,
+  .gorikhi__property,
+  .sukhofrukty__property {
+    margin-top: auto;
   }
-}
-.gorikhi__title {
-  margin-bottom: 30px;
-  font-weight: 700;
-  font-size: 24px;
-  text-align: center;
-}
-@media screen and (min-width: 768px) {
-  .gorikhi__title {
-    margin-bottom: 50px;
-    font-size: 44px;
-  }
-}
-.gorikhi__list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  grid-gap: 20px;
-}
-@media screen and (min-width: 768px) {
-  .gorikhi__list {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    grid-gap: 90px;
-  }
-}
-.gorikhi__item {
-  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-          box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 4px;
-  padding: 5px;
-  max-width: 260px;
-}
-.gorikhi__name {
-  margin: 10px 0;
-  font-weight: 700;
-  font-size: 18px;
-  text-align: center;
-}
-.gorikhi__description {
-  text-align: left;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.2;
-}
-.gorikhi__property {
-  text-align: center;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.8;
-}
-
-.candy {
-  background-color: #f5f4fa;
-}
-@media screen and (min-width: 768px) {
-  .candy {
-    padding-top: 60px;
-    padding-bottom: 60px;
-  }
-}
-.candy__title {
-  margin-bottom: 30px;
-  font-weight: 700;
-  font-size: 24px;
-  text-align: center;
-}
-@media screen and (min-width: 768px) {
-  .candy__title {
-    margin-bottom: 50px;
-    font-size: 44px;
-  }
-}
-.candy__list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  grid-gap: 20px;
-}
-@media screen and (min-width: 768px) {
-  .candy__list {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    grid-gap: 90px;
-  }
-}
-.candy__item {
-  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-          box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 4px;
-  padding: 5px;
-  max-width: 260px;
-}
-.candy__name {
-  margin: 10px 0;
-  font-weight: 700;
-  font-size: 18px;
-  text-align: center;
-}
-.candy__description {
-  text-align: left;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.2;
-}
-.candy__property {
-  text-align: center;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.8;
-}
-
-.rahat {
-  background-color: #f5f4fa;
-}
-@media screen and (min-width: 768px) {
-  .rahat {
-    padding-top: 60px;
-    padding-bottom: 60px;
-  }
-}
-.rahat__title {
-  margin-bottom: 30px;
-  font-weight: 700;
-  font-size: 24px;
-  text-align: center;
-}
-@media screen and (min-width: 768px) {
-  .rahat__title {
-    margin-bottom: 50px;
-    font-size: 44px;
-  }
-}
-.rahat__list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  grid-gap: 20px;
-}
-@media screen and (min-width: 768px) {
-  .rahat__list {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    grid-gap: 90px;
-  }
-}
-.rahat__item {
-  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-          box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 4px;
-  padding: 5px;
-  max-width: 260px;
-}
-.rahat__name {
-  margin: 10px 0;
-  font-weight: 700;
-  font-size: 18px;
-  text-align: center;
-}
-.rahat__description {
-  text-align: left;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.2;
-}
-.rahat__property {
-  text-align: center;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.8;
-}
-
-.drink {
-  background-color: #f5f4fa;
-}
-@media screen and (min-width: 768px) {
-  .drink {
-    padding-top: 60px;
-    padding-bottom: 60px;
-  }
-}
-.drink__title {
-  margin-bottom: 30px;
-  font-weight: 700;
-  font-size: 24px;
-  text-align: center;
-}
-@media screen and (min-width: 768px) {
-  .drink__title {
-    margin-bottom: 50px;
-    font-size: 44px;
-  }
-}
-.drink__list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  grid-gap: 20px;
-}
-@media screen and (min-width: 768px) {
-  .drink__list {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    grid-gap: 90px;
-  }
-}
-.drink__item {
-  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-          box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 4px;
-  padding: 5px;
-  max-width: 260px;
-}
-.drink__name {
-  margin: 10px 0;
-  font-weight: 700;
-  font-size: 18px;
-  text-align: center;
-}
-.drink__description {
-  text-align: left;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.2;
-}
-.drink__property {
-  text-align: center;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.8;
-}
-
-.oil {
-  background-color: #f5f4fa;
-}
-@media screen and (min-width: 768px) {
-  .oil {
-    padding-top: 60px;
-    padding-bottom: 60px;
-  }
-}
-.oil__title {
-  margin-bottom: 30px;
-  font-weight: 700;
-  font-size: 24px;
-  text-align: center;
-}
-@media screen and (min-width: 768px) {
-  .oil__title {
-    margin-bottom: 50px;
-    font-size: 44px;
-  }
-}
-.oil__list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  grid-gap: 20px;
-}
-@media screen and (min-width: 768px) {
-  .oil__list {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    grid-gap: 90px;
-  }
-}
-.oil__item {
-  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-          box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 4px;
-  padding: 5px;
-  max-width: 260px;
-}
-.oil__name {
-  margin: 10px 0;
-  font-weight: 700;
-  font-size: 18px;
-  text-align: center;
-}
-.oil__description {
-  text-align: left;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.2;
-}
-.oil__property {
-  text-align: center;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.8;
 }/*# sourceMappingURL=main.css.map */

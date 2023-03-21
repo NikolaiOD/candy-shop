@@ -1,4 +1,9 @@
-.candy {
+.oil,
+.drink,
+.rahat,
+.candy,
+.gorikhi,
+.sukhofrukty {
     background-color: $mix-background-color;
 
     @include tablet {
@@ -24,6 +29,7 @@
         align-items: center;
         grid-gap: 20px;
 
+
         @include tablet {
             flex-direction: row;
             flex-wrap: wrap;
@@ -37,6 +43,12 @@
         border-radius: 4px;
         padding: 5px;
         max-width: 260px;
+
+        @include tablet {
+            height: 450px;
+            display: flex;
+            flex-direction: column;
+        }
     }
 
     &__name {
@@ -58,5 +70,9 @@
         font-weight: 400;
         font-size: 14px;
         line-height: 1.8;
+
+        @include tablet {
+            margin-top: auto;
+        }
     }
 }
