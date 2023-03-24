@@ -37,7 +37,8 @@
         gap: 5px;
 
         &:hover,
-        &:focus {
+        &:focus,
+        &:active {
             color: $accent-color;
         }
     }
@@ -51,7 +52,8 @@
         fill: $secondary-text-color;
     
         &:hover,
-        &:focus {
+        &:focus,
+        &:active {
             fill: #2196f3;
         }
     }

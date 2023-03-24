@@ -20,7 +20,8 @@
         }
 
         &:hover,
-        &:focus {
+        &:focus,
+        &:active {
             color: $accent-color;
         }
     }

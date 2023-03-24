@@ -75,4 +75,19 @@
             margin-top: auto;
         }
     }
+
+    &__button {
+        font-family: $primaryFont;
+        font-weight: 400;
+        font-size: 14px;
+        color: $white-text-color;
+        border-radius: 30px;
+        cursor: pointer;
+
+        background-color: $accent-color;
+        border: none;
+        display: flex;
+        margin: 0 auto;
+        padding: 6px 10px;
+      }
 }

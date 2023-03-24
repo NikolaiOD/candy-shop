@@ -42,6 +42,7 @@
             <h2 class="sukhofrukty__name">Манго сушене</h2>
             <p class="sukhofrukty__description">Манго сушене ТМ 7000 Natural без цукру</p>
             <p class="sukhofrukty__property">Вага: 500 г<br>Ціна: 235 грн</p>
+            <button type="button" class="sukhofrukty__button" data-modal-open>Оформити замовлення</button>
         </li>
 
         <li class="sukhofrukty__item">
@@ -300,6 +301,49 @@
         <use href="./images/icons.svg#instagram"></use>
       </svg>
     </a>
-  </footer>    
+  </footer>   
+  <!-- Modal -->
+  <div class="backdrop is-hidden" data-modal>
+    <div class="modal">
+      <button class="close-modal-btn" type="button" data-modal-close>
+        <svg class="close-modal-btn__icon" width="32px" height="32px">
+          <use href="./images/icons.svg#close-modal-btn"></use>
+        </svg>
+      </button>
+      <div class="modal__container">
+        <p class="modal__title">Форма замовлення</p>
+        <form class="form">
+          <label class="form__title" for="name"
+            >Ім'я
+            <input
+              class="form__input"
+              placeholder="Введіть ім'я"
+              type="text"
+              name="name"
+              id="name"
+              minlength="2"
+              required
+            />
+          </label>
+          <label class="form__title" for="phone"
+            >Номер телефону
+            <input
+              class="form__input"
+              placeholder="+380 _ _ _ _ _ _ _ _ _"
+              type="tel"
+              name="phone"
+              id="phone"
+              minlength="10"
+              maxlength="13"
+              required
+            />
+          </label>
+          <button class="form__button" type="submit">Замовити</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  
+  <script src="./js/modal.js"></script>
 </body>
 </html>
