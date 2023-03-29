@@ -416,53 +416,28 @@ ul {
   margin-left: 20px;
 }
 
-.oil,
-.drink,
-.rahat,
-.candy,
-.gorikhi,
-.sukhofrukty {
+.product {
   background-color: #f5f4fa;
 }
 @media screen and (min-width: 768px) {
-  .oil,
-  .drink,
-  .rahat,
-  .candy,
-  .gorikhi,
-  .sukhofrukty {
+  .product {
     padding-top: 60px;
     padding-bottom: 60px;
   }
 }
-.oil__title,
-.drink__title,
-.rahat__title,
-.candy__title,
-.gorikhi__title,
-.sukhofrukty__title {
+.product__title {
   margin-bottom: 30px;
   font-weight: 700;
   font-size: 24px;
   text-align: center;
 }
 @media screen and (min-width: 768px) {
-  .oil__title,
-  .drink__title,
-  .rahat__title,
-  .candy__title,
-  .gorikhi__title,
-  .sukhofrukty__title {
+  .product__title {
     margin-bottom: 50px;
     font-size: 44px;
   }
 }
-.oil__list,
-.drink__list,
-.rahat__list,
-.candy__list,
-.gorikhi__list,
-.sukhofrukty__list {
+.product__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -476,12 +451,7 @@ ul {
   grid-gap: 20px;
 }
 @media screen and (min-width: 768px) {
-  .oil__list,
-  .drink__list,
-  .rahat__list,
-  .candy__list,
-  .gorikhi__list,
-  .sukhofrukty__list {
+  .product__list {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
@@ -494,12 +464,7 @@ ul {
     grid-gap: 90px;
   }
 }
-.oil__item,
-.drink__item,
-.rahat__item,
-.candy__item,
-.gorikhi__item,
-.sukhofrukty__item {
+.product__item {
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
@@ -507,13 +472,8 @@ ul {
   max-width: 260px;
 }
 @media screen and (min-width: 768px) {
-  .oil__item,
-  .drink__item,
-  .rahat__item,
-  .candy__item,
-  .gorikhi__item,
-  .sukhofrukty__item {
-    height: 450px;
+  .product__item {
+    height: 460px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -523,55 +483,30 @@ ul {
             flex-direction: column;
   }
 }
-.oil__name,
-.drink__name,
-.rahat__name,
-.candy__name,
-.gorikhi__name,
-.sukhofrukty__name {
+.product__name {
   margin: 10px 0;
   font-weight: 700;
   font-size: 18px;
   text-align: center;
 }
-.oil__description,
-.drink__description,
-.rahat__description,
-.candy__description,
-.gorikhi__description,
-.sukhofrukty__description {
+.product__description {
   text-align: left;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.2;
 }
-.oil__property,
-.drink__property,
-.rahat__property,
-.candy__property,
-.gorikhi__property,
-.sukhofrukty__property {
+.product__property {
   text-align: center;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.8;
 }
 @media screen and (min-width: 768px) {
-  .oil__property,
-  .drink__property,
-  .rahat__property,
-  .candy__property,
-  .gorikhi__property,
-  .sukhofrukty__property {
+  .product__property {
     margin-top: auto;
   }
 }
-.oil__button,
-.drink__button,
-.rahat__button,
-.candy__button,
-.gorikhi__button,
-.sukhofrukty__button {
+.product__button {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 14px;

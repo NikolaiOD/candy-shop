@@ -32,85 +32,10 @@
   </header>
   <!-- Main -->
   <main>
-    <!-- Category -->
-    <section class="drink container">
-      <h1 class="drink__title">КАВА, ЧАЙ</h1>
-      <ul class="drink__list">
-
-        <li class="drink__item">
-            <img src="./images/drink/kava_standard.jpg" alt="kava_standard">
-            <h2 class="drink__name">Кава мелена Стандарт</h2>
-            <p class="drink__description">Чудовий, натуральний німецький кофе, до складу якого входять добірні зерна Арабіки та найкращі боби азіатської Робусті</p>
-            <p class="drink__property">Вага: 500 г<br>Ціна: 200 грн</p>
-        </li>
-
-        <li class="drink__item">
-            <img src="./images/drink/kava_lavazza.jpg" alt="kava_lavazza">
-            <h2 class="drink__name">Молота кава Lavazza Quality Oro</h2>
-            <p class="drink__description">Інтенсивність - 5/10;<br>
-              Склад - 100% арабіка;<br>
-              Ступінь обсмажування - середня;<br>
-              Ступінь помелу - середній помел</p>
-            <p class="drink__property">Вага: 250 г<br>Ціна: 190 грн</p>
-        </li>
-
-        <li class="drink__item">
-            <img src="./images/drink/kava_kuru_zerna.jpg" alt="kava_kuru_zerna">
-            <h2 class="drink__name">Кава в зернах KURUKAHVECI (Туреччина)</h2>
-            <p class="drink__description">Кава в зернах по-Турецьки, смажена</p>
-            <p class="drink__property">Вага: 500 г<br>Ціна: 410 грн</p>
-        </li>
-
-        <li class="drink__item">
-            <img src="./images/drink/kava_espresso.jpg" alt="kava_espresso">
-            <h2 class="drink__name">Кава в зернах ESPRESSO (Туреччина)</h2>
-            <p class="drink__description">Кава в зернах ESPRESSO, смажена</p>
-            <p class="drink__property">Вага: 500 г<br>Ціна: 450 грн</p>
-        </li>
-
-        <li class="drink__item">
-            <img src="./images/drink/kava_kuru_melena.jpg" alt="kava_kuru_melena">
-            <h2 class="drink__name">Кава мелена KURUKAHVECI (Туреччина)</h2>
-            <p class="drink__description">Кава мелена Mehmet Efendi, дрібний помол</p>
-            <p class="drink__property">Вага: 100 г<br>Ціна: 90 грн</p>
-        </li>
-
-        <li class="drink__item">
-            <img src="./images/drink/kava_kuru_melena_500.jpg" alt="kava_kuru_melena_500">
-            <h2 class="drink__name">Кава мелена KURUKAHVECI (Туреччина)</h2>
-            <p class="drink__description">Кава мелена Mehmet Efendi, дрібний помол</p>
-            <p class="drink__property">Вага: 500 г<br>Ціна: 450 грн</p>
-        </li>
-
-        <li class="drink__item">
-            <img src="./images/drink/kava_kuru_melena_250.jpg" alt="kava_kuru_melena_250">
-            <h2 class="drink__name">Кава мелена KURUKAHVECI (Туреччина)</h2>
-            <p class="drink__description">Кава мелена Mehmet Efendi, дрібний помол</p>
-            <p class="drink__property">Вага: 250 г<br>Ціна: 240 грн</p>
-        </li>
-
-        <li class="drink__item">
-            <img src="./images/drink/tea_klassik.jpg" alt="tea_klassik">
-            <h2 class="drink__name">Зелений чай "Westminster Gruner Tee Klassik" (Німеччина)</h2>
-            <p class="drink__description">Грюнер Ті Класік оцінять любителі натурального смаку чайного листя без ароматизаторів та смакових добавок</p>
-            <p class="drink__property">Вага: 250 г<br>Ціна: 190 грн</p>
-        </li>
-
-        <li class="drink__item">
-            <img src="./images/drink/tea_zitrone.jpg" alt="tea_klassik">
-            <h2 class="drink__name">Чай зелений Westminster "Gruner Tee Zitrone" (Німеччина)</h2>
-            <p class="drink__description">Цей чай має освіжаючий цитрусовий аромат і легку терпкість. Склад багатий на вітаміни і мікроелементи, сильний антиоксидант</p>
-            <p class="drink__property">Вага: 250 г<br>Ціна: 190 грн</p>
-        </li>
-
-        <li class="drink__item">
-            <img src="./images/drink/tea_schwarzer.jpg" alt="tea_schwarzer">
-            <h2 class="drink__name">Чай чорний Westminster "Ostfriesische Teemischung" (Німеччина)</h2>
-            <p class="drink__description">Чудово тонізує та надає бадьорості всьому тілу. Терпкий чорний чай з характером, має насичений смак та колір</p>
-            <p class="drink__property">Вага: 250 г<br>Ціна: 170 грн</p>
-        </li>
-
-      </ul>
+    <!-- Product -->
+    <section class="product container">
+      <h1 class="product__title">КАВА, ЧАЙ</h1>
+      <ul class="product__list"></ul>
     </section>
   </main>
   <!-- Footer -->
@@ -128,6 +53,50 @@
         <use href="./images/icons.svg#instagram"></use>
       </svg>
     </a>
-  </footer>    
+  </footer>
+  <!-- Modal -->
+  <div class="backdrop is-hidden" data-modal>
+    <div class="modal">
+      <button class="close-modal-btn" type="button" data-modal-close>
+        <svg class="close-modal-btn__icon" width="32px" height="32px">
+          <use href="./images/icons.svg#close-modal-btn"></use>
+        </svg>
+      </button>
+      <div class="modal__container">
+        <p class="modal__title">Форма замовлення</p>
+        <form class="form">
+          <label class="form__title" for="name"
+            >Ім'я
+            <input
+              class="form__input"
+              placeholder="Введіть ім'я"
+              type="text"
+              name="name"
+              id="name"
+              minlength="2"
+              required
+            />
+          </label>
+          <label class="form__title" for="phone"
+            >Номер телефону
+            <input
+              class="form__input"
+              placeholder="+380(_ _) _ _ _ - _ _ - _ _"
+              type="tel"
+              name="phone"
+              id="phone"
+              minlength="10"
+              maxlength="13"
+              required
+            />
+          </label>
+          <button class="form__button" type="submit">Замовити</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="./js/markup.js" type="module"></script>
+  <script src="./js/modal.js" type="module"></script> 
 </body>
 </html>

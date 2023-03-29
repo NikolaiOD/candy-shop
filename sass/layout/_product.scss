@@ -1,9 +1,4 @@
-.oil,
-.drink,
-.rahat,
-.candy,
-.gorikhi,
-.sukhofrukty {
+.product {
     background-color: $mix-background-color;
 
     @include tablet {
@@ -45,7 +40,7 @@
         max-width: 260px;
 
         @include tablet {
-            height: 450px;
+            height: 460px;
             display: flex;
             flex-direction: column;
         }
