@@ -134,19 +134,29 @@ ul {
   background-position: center;
   background-size: cover;
   min-height: 400px;
-  padding-top: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 @media screen and (min-width: 1280px) {
   .hero {
     max-width: 1600px;
     min-height: 600px;
-    padding-top: 200px;
   }
 }
 .hero__title {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 400px;
+  margin-bottom: 20px;
+  max-width: 410px;
   font-weight: 700;
   font-size: 24px;
   line-height: 1.5;
@@ -156,13 +166,10 @@ ul {
 @media screen and (min-width: 1280px) {
   .hero__title {
     font-size: 44px;
-    max-width: 700px;
+    max-width: 750px;
   }
 }
 .hero__text {
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 10px;
   max-width: 400px;
   font-weight: 400;
   font-size: 14px;
