@@ -573,7 +573,7 @@ ul {
   }
 }
 .modal__container {
-  padding: 37px 20px 20px 20px;
+  padding: 20px;
 }
 
 .modal__title {
@@ -581,7 +581,6 @@ ul {
   font-size: 18px;
   text-align: center;
   color: #ffffff;
-  margin-bottom: 20px;
 }
 
 .close-modal-btn__icon {
@@ -660,14 +659,22 @@ ul {
   margin-left: auto;
   margin-right: auto;
   padding: 10px 38px;
-  margin-top: 8px;
+  margin-top: 10px;
   -webkit-transition: background-color 300ms linear;
   transition: background-color 300ms linear;
   cursor: pointer;
 }
-.form .form__title {
+.form__title {
   font-weight: 400;
   font-size: 14px;
   color: #ffffff;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+}
+.form__success {
+  text-align: center;
+  font-weight: 400;
+  font-size: 14px;
+  color: #ffffff;
+  background-color: #7eb101;
+  padding: 5px;
 }/*# sourceMappingURL=main.css.map */

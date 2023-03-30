@@ -4,6 +4,7 @@
     closeModalBtn: document.querySelector('[data-modal-close]'),
     modal: document.querySelector('[data-modal]'),
     body: document.querySelector('body'),
+    success: document.querySelector(".form__success"),
   };
 
   refs.openModalBtn.addEventListener('click', openModal);
@@ -25,5 +26,6 @@
   
     refs.modal.classList.toggle('is-hidden');
     refs.body.classList.toggle('scroll');
+    refs.success.style.display = "none";
   }
 })();
