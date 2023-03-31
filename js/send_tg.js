@@ -6,9 +6,12 @@ const success = document.querySelector(".form__success");
 document.querySelector(".form").addEventListener("submit", function(e) {
     e.preventDefault();
 
+    const productName = document.querySelector('[data-product-name');
+
     let message = `<b>Нове замовлення з сайту!</b>\n`;
     message += `<b>Ім'я замовника: </b> ${ this.name.value }\n`;
-    message += `<b>Номер телефону замовника: </b> ${ this.phone.value }`;
+    message += `<b>Телефон замовника: </b> ${ this.phone.value }\n`;
+    message += `<b>Замовили: </b> ${ productName.textContent }`;
 
     axios.post(URI_API, {
         chat_id: CHAT_ID,
