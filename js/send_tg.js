@@ -6,7 +6,7 @@ const success = document.querySelector(".form__success");
 document.querySelector(".form").addEventListener("submit", function(e) {
     e.preventDefault();
 
-    const productName = document.querySelector('[data-product-name');
+    const productName = document.querySelector('[data-product-name]');
 
     let message = `<b>Нове замовлення з сайту!</b>\n`;
     message += `<b>Ім'я замовника: </b> ${ this.name.value }\n`;

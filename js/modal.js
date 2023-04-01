@@ -18,7 +18,7 @@
     refs.modal.classList.toggle('is-hidden');
     refs.body.classList.toggle('scroll');
     
-    const productName = document.querySelector('[data-product-name');
+    const productName = document.querySelector('[data-product-name]');
     const currentProductName = e.target.previousElementSibling.previousElementSibling.previousElementSibling.innerHTML;
     productName.textContent = currentProductName;
   }
