@@ -1,14 +1,14 @@
 export const rahat = [
-	{
-		id: 1,
-        src: "./images/rahat/rahat_1.jpg",
-		alt: "rahat",
-		title: "Рахат-Лукум",
-		description: "Рахат-Лукум",
-		measure: "1,5 кг",
-		price: 200,
-		category: "rahat",
-	},
+	// {
+	// 	id: 1,
+    //     src: "./images/rahat/rahat_1.jpg",
+	// 	alt: "rahat",
+	// 	title: "Рахат-Лукум",
+	// 	description: "Рахат-Лукум",
+	// 	measure: "1,5 кг",
+	// 	price: 200,
+	// 	category: "rahat",
+	// },
 	{
 		id: 2,
         src: "./images/rahat/rahat_2.jpg",
@@ -116,7 +116,7 @@ export const rahat = [
 		title: "Рахат-Лукум",
 		description: "Рахат-Лукум, фруктовий",
 		measure: "1,5 кг",
-		price: 190,
+		price: 200,
 		category: "rahat",
 	},
 	{
