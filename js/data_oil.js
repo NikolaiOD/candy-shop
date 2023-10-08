@@ -1,15 +1,5 @@
 export const oil = [
 	{
-		id: 1,
-        src: "./images/oil/oil_monini_1l.jpg",
-		alt: "oil_monini_1l",
-		title: "Оливкова олія Monini Classico (Італія)",
-		description: "Оливкова олія першого холодного віджиму Monini Classico",
-		measure: "1 л",
-		price: 380,
-		category: "oil",
-	},
-	{
 		id: 2,
         src: "./images/oil/oil_monini.jpg",
 		alt: "oil_monini",
@@ -36,7 +26,7 @@ export const oil = [
 		title: "Оливкова олія De Cecco Classico Extra Virgin (Італія)",
 		description: "Оливкова олія De Cecco Classico Extra Virgin, нерафінована",
 		measure: "1 л",
-		price: 330,
+		price: 350,
 		category: "oil",
 	},
 	{
@@ -87,6 +77,16 @@ export const oil = [
 		description: "Оливкова олія",
 		measure: "5 л",
 		price: 420,
+		category: "oil",
+	},
+	{
+		id: 10,
+        src: "./images/oil/nasin.jpg",
+		alt: "nasin",
+		title: "Насіння ЧІА",
+		description: "Мають велику кількість поживних речовин, необхідних людському організму<br>(ваговий)",
+		measure: "1 кг",
+		price: 250,
 		category: "oil",
 	},
 ];
